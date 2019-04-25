@@ -1,0 +1,41 @@
+C:\Users\D'angelo\Projects\udemy\beginnerC++\c++_section_12_challenge.cpp: In function 'int apply_all(int, int, int, int)':
+C:\Users\D'angelo\Projects\udemy\beginnerC++\c++_section_12_challenge.cpp:43:44: error: request for member 'size' in 'new_array', which is of non-class type 'int* [(array1_size * array2_size)]'
+   for (size_t i {0}, c {0}; i < *new_array.size(); ++i) {
+                                            ^~~~
+C:\Users\D'angelo\Projects\udemy\beginnerC++\c++_section_12_challenge.cpp:45:31: error: invalid types 'int[size_t {aka unsigned int}]' for array subscript
+       *new_array[c] = array2[i] * array[j];
+                               ^
+C:\Users\D'angelo\Projects\udemy\beginnerC++\c++_section_12_challenge.cpp:45:35: error: 'array' was not declared in this scope
+       *new_array[c] = array2[i] * array[j];
+                                   ^~~~~
+C:\Users\D'angelo\Projects\udemy\beginnerC++\c++_section_12_challenge.cpp:45:35: note: 'std::array' is defined in header '<array>'; did you forget to '#include <array>'?
+C:\Users\D'angelo\Projects\udemy\beginnerC++\c++_section_12_challenge.cpp:38:1:
++#include <array>
+ 
+C:\Users\D'angelo\Projects\udemy\beginnerC++\c++_section_12_challenge.cpp:45:35:
+       *new_array[c] = array2[i] * array[j];
+                                   ^~~~~
+C:\Users\D'angelo\Projects\udemy\beginnerC++\c++_section_12_challenge.cpp:49:10: error: invalid conversion from 'int*' to 'int' [-fpermissive]
+   return *new_array;
+          ^~~~~~~~~~
+C:\Users\D'angelo\Projects\udemy\beginnerC++\c++_section_12_challenge.cpp: In function 'int main()':
+C:\Users\D'angelo\Projects\udemy\beginnerC++\c++_section_12_challenge.cpp:55:16: error: redeclaration of 'const size_t array1_size'
+   const size_t array1_size {3};
+                ^~~~~~~~~~~
+C:\Users\D'angelo\Projects\udemy\beginnerC++\c++_section_12_challenge.cpp:54:16: note: 'const size_t array1_size' previously declared here
+   const size_t array1_size {5};
+                ^~~~~~~~~~~
+C:\Users\D'angelo\Projects\udemy\beginnerC++\c++_section_12_challenge.cpp:61:3: error: 'print' was not declared in this scope
+   print(array1, array1_size);
+   ^~~~~
+C:\Users\D'angelo\Projects\udemy\beginnerC++\c++_section_12_challenge.cpp:61:3: note: suggested alternative: 'printf'
+   print(array1, array1_size);
+   ^~~~~
+   printf
+C:\Users\D'angelo\Projects\udemy\beginnerC++\c++_section_12_challenge.cpp:64:17: error: 'array2_size' was not declared in this scope
+   print(array2, array2_size);
+                 ^~~~~~~~~~~
+C:\Users\D'angelo\Projects\udemy\beginnerC++\c++_section_12_challenge.cpp:64:17: note: suggested alternative: 'array1_size'
+   print(array2, array2_size);
+                 ^~~~~~~~~~~
+                 array1_size
