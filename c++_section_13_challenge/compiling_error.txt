@@ -1,0 +1,281 @@
+In file included from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:4:
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp: In member function 'void Movies::add_movie(std::__cxx11::string, int, int, std::__cxx11::string)':
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp:11:94: error: no matching function for call to 'Movie::Movie(std::__cxx11::string&, int&, int&, std::__cxx11::string&)'
+   all_movies.push_back(Movie(title_value, user_rating_value, watched_value, mpaa_rating_value));
+                                                                                              ^
+In file included from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.h:5,
+                 from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp:1,
+                 from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:4:
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movie.h:14:3: note: candidate: 'Movie::Movie(std::__cxx11::string, std::__cxx11::string, int, int)'
+   Movie(std::string title_value, std::string mpaa_rating_value, int user_rating_value, int watched_value);
+   ^~~~~
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movie.h:14:3: note:   no known conversion for argument 2 from 'int' to 'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'}
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movie.h:5:7: note: candidate: 'Movie::Movie(const Movie&)'
+ class Movie {
+       ^~~~~
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movie.h:5:7: note:   candidate expects 1 argument, 4 provided
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movie.h:5:7: note: candidate: 'Movie::Movie(Movie&&)'
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movie.h:5:7: note:   candidate expects 1 argument, 4 provided
+In file included from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:4:
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp: In member function 'void Movies::search(std::__cxx11::string)':
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp:16:25: error: no match for 'operator==' (operand types are '<unresolved overloaded function type>' and 'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'})
+     if (movie.get_title == search_query) {
+         ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iosfwd:40,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ios:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:1:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\postypes.h:216:5: note: candidate: 'template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)'
+     operator==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\postypes.h:216:5: note:   template argument deduction/substitution failed:
+In file included from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:4:
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp:16:28: note:   mismatched types 'const std::fpos<_StateT>' and 'std::__cxx11::string (Movie::*)()' {aka 'std::__cxx11::basic_string<char> (Movie::*)()'}
+     if (movie.get_title == search_query) {
+                            ^~~~~~~~~~~~
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp:16:28: note:   'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} is not derived from 'const std::fpos<_StateT>'
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_algobase.h:64,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\char_traits.h:39,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ios:40,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:1:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_pair.h:443:5: note: candidate: 'template<class _T1, class _T2> constexpr bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)'
+     operator==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_pair.h:443:5: note:   template argument deduction/substitution failed:
+In file included from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:4:
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp:16:28: note:   mismatched types 'const std::pair<_T1, _T2>' and 'std::__cxx11::string (Movie::*)()' {aka 'std::__cxx11::basic_string<char> (Movie::*)()'}
+     if (movie.get_title == search_query) {
+                            ^~~~~~~~~~~~
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp:16:28: note:   'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} is not derived from 'const std::pair<_T1, _T2>'
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_algobase.h:67,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\char_traits.h:39,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ios:40,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:1:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:299:5: note: candidate: 'template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)'
+     operator==(const reverse_iterator<_Iterator>& __x,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:299:5: note:   template argument deduction/substitution failed:
+In file included from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:4:
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp:16:28: note:   mismatched types 'const std::reverse_iterator<_Iterator>' and 'std::__cxx11::string (Movie::*)()' {aka 'std::__cxx11::basic_string<char> (Movie::*)()'}
+     if (movie.get_title == search_query) {
+                            ^~~~~~~~~~~~
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp:16:28: note:   'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} is not derived from 'const std::reverse_iterator<_Iterator>'
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_algobase.h:67,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\char_traits.h:39,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ios:40,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:1:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:337:5: note: candidate: 'template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)'
+     operator==(const reverse_iterator<_IteratorL>& __x,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:337:5: note:   template argument deduction/substitution failed:
+In file included from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:4:
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp:16:28: note:   mismatched types 'const std::reverse_iterator<_Iterator>' and 'std::__cxx11::string (Movie::*)()' {aka 'std::__cxx11::basic_string<char> (Movie::*)()'}
+     if (movie.get_title == search_query) {
+                            ^~~~~~~~~~~~
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp:16:28: note:   'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} is not derived from 'const std::reverse_iterator<_IteratorR>'
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_algobase.h:67,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\char_traits.h:39,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ios:40,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:1:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:1112:5: note: candidate: 'template<class _IteratorL, class _IteratorR> bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)'
+     operator==(const move_iterator<_IteratorL>& __x,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:1112:5: note:   template argument deduction/substitution failed:
+In file included from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:4:
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp:16:28: note:   mismatched types 'const std::move_iterator<_IteratorL>' and 'std::__cxx11::string (Movie::*)()' {aka 'std::__cxx11::basic_string<char> (Movie::*)()'}
+     if (movie.get_title == search_query) {
+                            ^~~~~~~~~~~~
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp:16:28: note:   'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} is not derived from 'const std::move_iterator<_IteratorR>'
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_algobase.h:67,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\char_traits.h:39,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ios:40,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:1:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:1118:5: note: candidate: 'template<class _Iterator> bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)'
+     operator==(const move_iterator<_Iterator>& __x,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:1118:5: note:   template argument deduction/substitution failed:
+In file included from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:4:
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp:16:28: note:   mismatched types 'const std::move_iterator<_IteratorL>' and 'std::__cxx11::string (Movie::*)()' {aka 'std::__cxx11::basic_string<char> (Movie::*)()'}
+     if (movie.get_title == search_query) {
+                            ^~~~~~~~~~~~
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp:16:28: note:   'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} is not derived from 'const std::move_iterator<_IteratorL>'
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\string:41,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\locale_classes.h:40,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\ios_base.h:41,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ios:42,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:1:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\allocator.h:146:5: note: candidate: 'template<class _T1, class _T2> bool std::operator==(const std::allocator<_CharT>&, const std::allocator<_T2>&)'
+     operator==(const allocator<_T1>&, const allocator<_T2>&)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\allocator.h:146:5: note:   template argument deduction/substitution failed:
+In file included from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:4:
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp:16:28: note:   mismatched types 'const std::allocator<_CharT>' and 'std::__cxx11::string (Movie::*)()' {aka 'std::__cxx11::basic_string<char> (Movie::*)()'}
+     if (movie.get_title == search_query) {
+                            ^~~~~~~~~~~~
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp:16:28: note:   'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} is not derived from 'const std::allocator<_T2>'
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\string:41,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\locale_classes.h:40,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\ios_base.h:41,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ios:42,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:1:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\allocator.h:152:5: note: candidate: 'template<class _Tp> bool std::operator==(const std::allocator<_CharT>&, const std::allocator<_CharT>&)'
+     operator==(const allocator<_Tp>&, const allocator<_Tp>&)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\allocator.h:152:5: note:   template argument deduction/substitution failed:
+In file included from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:4:
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp:16:28: note:   mismatched types 'const std::allocator<_CharT>' and 'std::__cxx11::string (Movie::*)()' {aka 'std::__cxx11::basic_string<char> (Movie::*)()'}
+     if (movie.get_title == search_query) {
+                            ^~~~~~~~~~~~
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp:16:28: note:   'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} is not derived from 'const std::allocator<_CharT>'
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\string:52,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\locale_classes.h:40,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\ios_base.h:41,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ios:42,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:1:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\basic_string.h:6039:5: note: candidate: 'bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]'
+     operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\basic_string.h:6039:5: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'const std::__cxx11::basic_string<char>&'
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\basic_string.h:6047:5: note: candidate: 'typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::__cxx11::basic_string<_CharT>&, const std::__cxx11::basic_string<_CharT>&) [with _CharT = char; typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type = bool]'
+     operator==(const basic_string<_CharT>& __lhs,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\basic_string.h:6047:5: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'const std::__cxx11::basic_string<char>&'
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\basic_string.h:6061:5: note: candidate: 'bool std::operator==(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]'
+     operator==(const _CharT* __lhs,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\basic_string.h:6061:5: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'const char*'
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\basic_string.h:6073:5: note: candidate: 'template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)'
+     operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\basic_string.h:6073:5: note:   template argument deduction/substitution failed:
+In file included from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:4:
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp:16:28: note:   mismatched types 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>' and 'std::__cxx11::string (Movie::*)()' {aka 'std::__cxx11::basic_string<char> (Movie::*)()'}
+     if (movie.get_title == search_query) {
+                            ^~~~~~~~~~~~
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp:16:28: note:   mismatched types 'const _CharT*' and 'std::__cxx11::basic_string<char>'
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\ios_base.h:46,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ios:42,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:1:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\system_error:292:3: note: candidate: 'bool std::operator==(const std::error_code&, const std::error_code&)'
+   operator==(const error_code& __lhs, const error_code& __rhs) noexcept
+   ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\system_error:292:3: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'const std::error_code&'
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\system_error:297:3: note: candidate: 'bool std::operator==(const std::error_code&, const std::error_condition&)'
+   operator==(const error_code& __lhs, const error_condition& __rhs) noexcept
+   ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\system_error:297:3: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'const std::error_code&'
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\system_error:304:3: note: candidate: 'bool std::operator==(const std::error_condition&, const std::error_code&)'
+   operator==(const error_condition& __lhs, const error_code& __rhs) noexcept
+   ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\system_error:304:3: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'const std::error_condition&'
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\system_error:311:3: note: candidate: 'bool std::operator==(const std::error_condition&, const std::error_condition&)'
+   operator==(const error_condition& __lhs,
+   ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\system_error:311:3: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'const std::error_condition&'
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\locale_facets.h:48,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\basic_ios.h:37,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ios:44,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:1:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\streambuf_iterator.h:203:5: note: candidate: 'template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)'
+     operator==(const istreambuf_iterator<_CharT, _Traits>& __a,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\streambuf_iterator.h:203:5: note:   template argument deduction/substitution failed:
+In file included from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:4:
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp:16:28: note:   mismatched types 'const std::istreambuf_iterator<_CharT, _Traits>' and 'std::__cxx11::string (Movie::*)()' {aka 'std::__cxx11::basic_string<char> (Movie::*)()'}
+     if (movie.get_title == search_query) {
+                            ^~~~~~~~~~~~
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp:16:28: note:   'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} is not derived from 'const std::istreambuf_iterator<_CharT, _Traits>'
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\vector:64,
+                 from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:2:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_vector.h:1753:5: note: candidate: 'template<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)'
+     operator==(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_vector.h:1753:5: note:   template argument deduction/substitution failed:
+In file included from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:4:
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp:16:28: note:   mismatched types 'const std::vector<_Tp, _Alloc>' and 'std::__cxx11::string (Movie::*)()' {aka 'std::__cxx11::basic_string<char> (Movie::*)()'}
+     if (movie.get_title == search_query) {
+                            ^~~~~~~~~~~~
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp:16:28: note:   'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} is not derived from 'const std::vector<_Tp, _Alloc>'
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_algobase.h:67,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\char_traits.h:39,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ios:40,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:1:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:860:5: note: candidate: 'template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)'
+     operator==(const __normal_iterator<_IteratorL, _Container>& __lhs,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:860:5: note:   template argument deduction/substitution failed:
+In file included from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:4:
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp:16:28: note:   mismatched types 'const __gnu_cxx::__normal_iterator<_IteratorL, _Container>' and 'std::__cxx11::string (Movie::*)()' {aka 'std::__cxx11::basic_string<char> (Movie::*)()'}
+     if (movie.get_title == search_query) {
+                            ^~~~~~~~~~~~
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp:16:28: note:   'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} is not derived from 'const __gnu_cxx::__normal_iterator<_IteratorR, _Container>'
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_algobase.h:67,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\char_traits.h:39,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ios:40,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:1:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:867:5: note: candidate: 'template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)'
+     operator==(const __normal_iterator<_Iterator, _Container>& __lhs,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:867:5: note:   template argument deduction/substitution failed:
+In file included from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:4:
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp:16:28: note:   mismatched types 'const __gnu_cxx::__normal_iterator<_Iterator, _Container>' and 'std::__cxx11::string (Movie::*)()' {aka 'std::__cxx11::basic_string<char> (Movie::*)()'}
+     if (movie.get_title == search_query) {
+                            ^~~~~~~~~~~~
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp:16:28: note:   'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} is not derived from 'const __gnu_cxx::__normal_iterator<_Iterator, _Container>'
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\mingw32\bits\c++allocator.h:33,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\allocator.h:46,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\string:41,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\locale_classes.h:40,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\ios_base.h:41,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ios:42,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:1:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ext\new_allocator.h:155:5: note: candidate: 'template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)'
+     operator==(const new_allocator<_Tp>&, const new_allocator<_Tp>&)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ext\new_allocator.h:155:5: note:   template argument deduction/substitution failed:
+In file included from C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:4:
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp:16:28: note:   mismatched types 'const __gnu_cxx::new_allocator<_Tp>' and 'std::__cxx11::string (Movie::*)()' {aka 'std::__cxx11::basic_string<char> (Movie::*)()'}
+     if (movie.get_title == search_query) {
+                            ^~~~~~~~~~~~
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\Movies.cpp:16:28: note:   'std::__cxx11::string' {aka 'std::__cxx11::basic_string<char>'} is not derived from 'const __gnu_cxx::new_allocator<_Tp>'
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp: In function 'void add_movie_to_collection()':
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:23:3: error: 'user_collection' was not declared in this scope
+   user_collection.add_movie(title_value, mpaa_rating_value, user_rating_value, watched_value);
+   ^~~~~~~~~~~~~~~
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp: In function 'void user_menu()':
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:39:5: error: 'user_collection' was not declared in this scope
+     user_collection.get_all_movies();
+     ^~~~~~~~~~~~~~~
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:45:5: error: 'user_collection' was not declared in this scope
+     user_collection.search(search_query);
+     ^~~~~~~~~~~~~~~
+C:\Users\D'angelo\Projects\udemy\beginner_c++\c++_section_13_challenge\main.cpp:49:12: error: 'user_collection' was not declared in this scope
+     delete user_collection;
+            ^~~~~~~~~~~~~~~

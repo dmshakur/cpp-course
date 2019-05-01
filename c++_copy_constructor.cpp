@@ -13,6 +13,8 @@ public:
   int get_health() {return health;}
   int get_xp() {return xp;}
   Player(std::string name_val = "None", int health_val = 0, int xp_val = 0);
+  Player(const Player &source);
+  ~Player() {cout << "Destructor is being called for: " name << endl;}
 };
 
 Player::Player(std::string name_val, int health, int xp_val)
@@ -20,9 +22,25 @@ Player::Player(std::string name_val, int health, int xp_val)
     cout << "three-args constructor" << endl;
 }
 
+Player::Player(const Player &source)
+  :name(source.name), health(source.health), xp(source.xp) {
+    cout << "Copy constructor - made copy of: " << source.name << endl;
+  }
+
+void display_player(Player p) {
+  cout << "Name: " << p.get_name() << endl
+  cout << "Health: " << p.get_health() << endl
+  cout << "Xp: " << p.get_xp() << endl
+}
+
 int main() {
 
-  Player empty;
+  Player empty {"XXXXXX", 100, 50};
+
+  Player my_new_object {empty};
+
+  display_player(empty);
+
   Player frank {"Frank"};
   Player hero {"Hero", 100}
   Player villain {"VIllain", 100, 55};
