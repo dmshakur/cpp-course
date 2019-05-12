@@ -17,10 +17,10 @@ void add_movie_to_collection() {
   cin >> mpaa_rating_value;
   cout << "Please enter a numerical rating for the film: ";
   cin >> user_rating_value;
-  cout << "Please enter a number representing the number of times you have seen the film in question: ";
+  cout << "Please enter a number representing the number of times you have seen this film: ";
   cin >> watched_value;
 
-  user_collection.add_movie(title_value, mpaa_rating_value, user_rating_value, watched_value);
+  *user_collection.add_movie(title_value, mpaa_rating_value, user_rating_value, watched_value);
 }
 
 void user_menu() {
@@ -36,13 +36,13 @@ void user_menu() {
     add_movie_to_collection();
     user_menu();
   } else if (user_input == 'S' || user_input == 's') {
-    user_collection.get_all_movies();
+    *user_collection.get_all_movies();
     user_menu();
   } else if (user_input == 'D' || user_input == 'd') {
     string search_query;
     cout << "Enter the movies name you wish to view: ";
     cin >> search_query;
-    user_collection.search(search_query);
+    *user_collection.search(search_query);
     user_menu();
   } else if (user_input == 'E' || user_input == 'e') {
     cout << "Exiting program now..." << endl;
@@ -56,7 +56,7 @@ void user_menu() {
 
 int main() {
 
-  Movies user_collection;
+  Movies *user_collection;
 
   cout << "\nWelcome to your personal film catalogue" << endl;
   user_menu();
