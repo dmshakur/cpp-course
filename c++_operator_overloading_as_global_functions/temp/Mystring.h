@@ -1,8 +1,12 @@
 #ifndef _MYSTRING_H_
 #define _MYSTRING_H_
+#include "Mystring.cpp"
 
 class Mystring
 {
+  friend bool operator==(const Mystring &lhs, const Mystring &rhs);
+  friend Mystring operator-(const Mystring &obj);
+  friend Mystring operator+(const Mystring &lhs, const Mystring &rhs)
 private:
   char *str;
 public:
@@ -14,10 +18,6 @@ public:
 
   Mystring &operator=(const Mystring &rhs);
   Mystring &operator=(Mystring &&rhs);
-
-  Mystring operator-() const;
-  Mystring operator+(const Mystring &rhs) const;
-  bool operator==(const Mystring &rhs) const;
 
   void display() const;
 

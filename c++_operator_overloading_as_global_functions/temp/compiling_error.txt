@@ -1,0 +1,54 @@
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_as_global_functions\temp\main.cpp: In function 'int main()':
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_as_global_functions\temp\main.cpp:7:3: error: 'Mystring' was not declared in this scope
+   Mystring larry {"Larry"};
+   ^~~~~~~~
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_as_global_functions\temp\main.cpp:7:3: note: suggested alternative: 'isprint'
+   Mystring larry {"Larry"};
+   ^~~~~~~~
+   isprint
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_as_global_functions\temp\main.cpp:8:3: error: 'larry' was not declared in this scope
+   larry.dislay();
+   ^~~~~
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_as_global_functions\temp\main.cpp:14:11: error: expected ';' before 'moe'
+   Mystring moe {"Moe"};
+           ^~~~
+           ;
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_as_global_functions\temp\main.cpp:15:11: error: expected ';' before 'stooge'
+   Mystring stooge = larry;
+           ^~~~~~~
+           ;
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_as_global_functions\temp\main.cpp:17:21: error: 'moe' was not declared in this scope
+   cout << (larry == moe) << endl;
+                     ^~~
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_as_global_functions\temp\main.cpp:18:21: error: 'stooge' was not declared in this scope
+   cout << (larry == stooge) << endl;
+                     ^~~~~~
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_as_global_functions\temp\main.cpp:18:21: note: suggested alternative: 'stdout'
+   cout << (larry == stooge) << endl;
+                     ^~~~~~
+                     stdout
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_as_global_functions\temp\main.cpp:21:11: error: expected ';' before 'stooges'
+   Mystring stooges = "Larry" + moe;
+           ^~~~~~~~
+           ;
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_as_global_functions\temp\main.cpp:22:3: error: 'stooges' was not declared in this scope
+   stooges.display();
+   ^~~~~~~
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_as_global_functions\temp\main.cpp:22:3: note: suggested alternative: '_tolower'
+   stooges.display();
+   ^~~~~~~
+   _tolower
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_as_global_functions\temp\main.cpp:24:11: error: expected ';' before 'two_stooges'
+   Mystring two_stooges = moe + " " + "Larry";
+           ^~~~~~~~~~~~
+           ;
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_as_global_functions\temp\main.cpp:25:3: error: 'two_stooges' was not declared in this scope
+   two_stooges.display();
+   ^~~~~~~~~~~
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_as_global_functions\temp\main.cpp:26:11: error: expected ';' before 'three_stooges'
+   Mystring three_stooges = moe + " " + larry + "Curly";
+           ^~~~~~~~~~~~~~
+           ;
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_as_global_functions\temp\main.cpp:27:3: error: 'three_stooges' was not declared in this scope
+   three_stooges.display();
+   ^~~~~~~~~~~~~

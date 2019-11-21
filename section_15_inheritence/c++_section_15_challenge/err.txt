@@ -1,0 +1,26 @@
+
+Severity 	Provider 	Description	Line
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: C:\Users\D'angelo\AppData\Local\Temp\cc31W50c.o: in function main': <br/>C:/Users/D'angelo/Projects/tutorials/udemy/beginner_c++/section_15_inheritence/c++_section_15_challenge/main.cpp:16: undefined reference toAccount::Account(std::cxx11::basic_string<char, std::char_traits, std::allocator >, double)'
+
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: C:/Users/D'angelo/Projects/tutorials/udemy/beginner_c++/section_15_inheritence/c++_section_15_challenge/main.cpp:17: undefined reference to `Account::Account(std::cxx11::basic_string<char, std::char_traits, std::allocator >, double)'
+
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: C:/Users/D'angelo/Projects/tutorials/udemy/beginner_c++/section_15_inheritence/c++_section_15_challenge/main.cpp:18: undefined reference to Account::Account(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, double)' <br/>c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: C:/Users/D'angelo/Projects/tutorials/udemy/beginner_c++/section_15_inheritence/c++_section_15_challenge/main.cpp:19: undefined reference toAccount::Account(std::cxx11::basic_string<char, std::char_traits, std::allocator >, double)'
+
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: C:/Users/D'angelo/Projects/tutorials/udemy/beginner_c++/section_15_inheritence/c++_section_15_challenge/main.cpp:21: undefined reference to display(std::vector<Account, std::allocator<Account> > const&)' <br/>c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: C:/Users/D'angelo/Projects/tutorials/udemy/beginner_c++/section_15_inheritence/c++_section_15_challenge/main.cpp:22: undefined reference todeposit(std::vector<Account, std::allocator >&, double)'
+
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: C:/Users/D'angelo/Projects/tutorials/udemy/beginner_c++/section_15_inheritence/c++_section_15_challenge/main.cpp:23: undefined reference to withdraw(std::vector<Account, std::allocator<Account> >&, double)' <br/>c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: C:/Users/D'angelo/Projects/tutorials/udemy/beginner_c++/section_15_inheritence/c++_section_15_challenge/main.cpp:28: undefined reference toSavings_Account::Savings_Account(std::cxx11::basic_string<char, std::char_traits, std::allocator >, double, double)'
+
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: C:/Users/D'angelo/Projects/tutorials/udemy/beginner_c++/section_15_inheritence/c++_section_15_challenge/main.cpp:29: undefined reference to Savings_Account::Savings_Account(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, double, double)' <br/>c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: C:/Users/D'angelo/Projects/tutorials/udemy/beginner_c++/section_15_inheritence/c++_section_15_challenge/main.cpp:30: undefined reference toSavings_Account::Savings_Account(std::cxx11::basic_string<char, std::char_traits, std::allocator >, double, double)'
+
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: C:/Users/D'angelo/Projects/tutorials/udemy/beginner_c++/section_15_inheritence/c++_section_15_challenge/main.cpp:31: undefined reference to `Savings_Account::Savings_Account(std::cxx11::basic_string<char, std::char_traits, std::allocator >, double, double)'
+
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: C:/Users/D'angelo/Projects/tutorials/udemy/beginner_c++/section_15_inheritence/c++_section_15_challenge/main.cpp:33: undefined reference to display(std::vector<Savings_Account, std::allocator<Savings_Account> > const&)' <br/>c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: C:/Users/D'angelo/Projects/tutorials/udemy/beginner_c++/section_15_inheritence/c++_section_15_challenge/main.cpp:34: undefined reference todeposit(std::vector<Savings_Account, std::allocator<Savings_Account> >&, double)'
+
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: C:/Users/D'angelo/Projects/tutorials/udemy/beginner_c++/section_15_inheritence/c++_section_15_challenge/main.cpp:35: undefined reference to `withdraw(std::vector<Savings_Account, std::allocator<Savings_Account> >&, double)'
+collect2.exe: error: ld returned 1 exit status
+
+Uncaught Callback must be a function
+
+fs.js:157
+Show Stack Trace
+The error was thrown from the gpp-compiler package. This issue has already been reported.

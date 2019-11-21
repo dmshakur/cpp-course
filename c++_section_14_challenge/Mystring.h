@@ -3,6 +3,8 @@
 
 class Mystring
 {
+  friend std::ostream &operator<<(std::ostream &os, const Mystring &rhs);
+  friend std::istream &operator>>(std::istream &in, Mystring &rhs);
 private:
   char *str;
 public:
@@ -15,9 +17,15 @@ public:
   Mystring &operator=(const Mystring &rhs);
   Mystring &operator=(Mystring &&rhs);
 
-  Mystring operator-() const;
+  Mystring operator-();
   Mystring operator+(const Mystring &rhs) const;
+  Mystring operator+=(const Mystring &rhs) const;
+  Mystring operator*(const Mystring &rhs) const;
+  Mystring operator*=(const Mystring &rhs) const;
+
   bool operator==(const Mystring &rhs) const;
+  bool operator<(const Mystring &rhs) const;
+  bool operator>(const Mystring &rhs) const;
 
   void display() const;
 
