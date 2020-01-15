@@ -14,7 +14,7 @@ Your challenge is the following:
 
 2. Create an I_Printable class interface as we did in the course and provide functionality so
     all accounts are printable to an ostream using the overloaded insertion operator.
-    
+
         class I_Printable
         {
             friend std::ostream &operator<<(std::ostream &os, const I_Printable &obj);
@@ -44,6 +44,3 @@ Hints:
     - Start by making the Account class abstract by adding the pure virtual functions.
     
 Have fun!!  This is a very, very challenging exercise!
-   
-   
-    
