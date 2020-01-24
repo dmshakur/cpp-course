@@ -1,0 +1,120 @@
+In file included from C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.h:3,
+                 from C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\main.cpp:4:
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp:4:1: error: 'Mystring' does not name a type; did you mean 'isprint'?
+ Mystring::Mystring()
+ ^~~~~~~~
+ isprint
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp:5:17: error: expected unqualified-id before '{' token
+   :str{nullptr} {
+                 ^
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp:10:1: error: 'Mystring' does not name a type; did you mean 'isprint'?
+ Mystring::Mystring(const char *s)
+ ^~~~~~~~
+ isprint
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp:11:17: error: expected unqualified-id before '{' token
+   :str{nullptr} {
+                 ^
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp:21:1: error: 'Mystring' does not name a type; did you mean 'isprint'?
+ Mystring::Mystring(const Mystring &source)
+ ^~~~~~~~
+ isprint
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp:22:17: error: expected unqualified-id before '{' token
+   :str{nullptr} {
+                 ^
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp:28:1: error: 'Mystring' does not name a type; did you mean 'isprint'?
+ Mystring::Mystring(Mystring &&source)
+ ^~~~~~~~
+ isprint
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp:34:1: error: 'Mystring' does not name a type; did you mean 'isprint'?
+ Mystring::~Mystring() {
+ ^~~~~~~~
+ isprint
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp:38:1: error: 'Mystring' does not name a type; did you mean 'isprint'?
+ Mystring &Mystring::operator=(const Mystring &rhs) {
+ ^~~~~~~~
+ isprint
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp:49:1: error: 'Mystring' does not name a type; did you mean 'isprint'?
+ Mystring &Mystring::operator=(Mystring &&rhs) {
+ ^~~~~~~~
+ isprint
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp:59:6: error: 'Mystring' has not been declared
+ void Mystring::display() const {
+      ^~~~~~~~
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp:59:26: error: non-member function 'void display()' cannot have cv-qualifier
+ void Mystring::display() const {
+                          ^~~~~
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp: In function 'void display()':
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp:60:16: error: 'str' was not declared in this scope
+   std::cout << str << " : " <  get_length() << std::endl;
+                ^~~
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp:60:16: note: suggested alternative: 'std'
+   std::cout << str << " : " <  get_length() << std::endl;
+                ^~~
+                std
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp:60:32: error: 'get_length' was not declared in this scope
+   std::cout << str << " : " <  get_length() << std::endl;
+                                ^~~~~~~~~~
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp:60:32: note: suggested alternative: 'getline'
+   std::cout << str << " : " <  get_length() << std::endl;
+                                ^~~~~~~~~~
+                                getline
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp: At global scope:
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp:63:5: error: 'Mystring' has not been declared
+ int Mystring::get_length() const { return strlen(str); }
+     ^~~~~~~~
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp:63:28: error: non-member function 'int get_length()' cannot have cv-qualifier
+ int Mystring::get_length() const { return strlen(str); }
+                            ^~~~~
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp: In function 'int get_length()':
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp:63:50: error: 'str' was not declared in this scope
+ int Mystring::get_length() const { return strlen(str); }
+                                                  ^~~
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp:63:50: note: suggested alternative: 'std'
+ int Mystring::get_length() const { return strlen(str); }
+                                                  ^~~
+                                                  std
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp: At global scope:
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp:64:13: error: 'Mystring' has not been declared
+ const char *Mystring::get_str() const { return str; }
+             ^~~~~~~~
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp:64:33: error: non-member function 'const char* get_str()' cannot have cv-qualifier
+ const char *Mystring::get_str() const { return str; }
+                                 ^~~~~
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp: In function 'const char* get_str()':
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp:64:48: error: 'str' was not declared in this scope
+ const char *Mystring::get_str() const { return str; }
+                                                ^~~
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp:64:48: note: suggested alternative: 'std'
+ const char *Mystring::get_str() const { return str; }
+                                                ^~~
+                                                std
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp: At global scope:
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp:68:50: error: 'Mystring' does not name a type; did you mean 'isprint'?
+ std::ostream &operator<<(std::ostream &os, const Mystring &rhs) {
+                                                  ^~~~~~~~
+                                                  isprint
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp: In function 'std::ostream& operator<<(std::ostream&, const int&)':
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp:69:13: error: request for member 'str' in 'rhs', which is of non-class type 'const int'
+   os << rhs.str;
+             ^~~
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp: At global scope:
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp:75:44: error: 'Mystring' has not been declared
+ std::istream &operator>>(std::istream &in, Mystring &rhs) {
+                                            ^~~~~~~~
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp: In function 'std::istream& operator>>(std::istream&, int&)':
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp:76:14: error: expected initializer before 'new'
+   char *buff new char[1000];
+              ^~~
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp:77:9: error: 'buff' was not declared in this scope
+   in >> buff;
+         ^~~~
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp:78:9: error: 'Mystring' was not declared in this scope
+   rhs = Mystring{buff};
+         ^~~~~~~~
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp:78:9: note: suggested alternative: 'isprint'
+   rhs = Mystring{buff};
+         ^~~~~~~~
+         isprint
+C:\Users\D'angelo\Projects\tutorials\udemy\beginner_c++\c++_operator_overloading_stream_insertion_&_extraction\Mystring.cpp:79:13: error: type '<type error>' argument given to 'delete', expected pointer
+   delete [] buff;
+             ^~~~
