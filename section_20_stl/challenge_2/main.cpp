@@ -70,7 +70,7 @@ void display_playlist(const std::list<Song> &playlist, const Song &current_song)
 
 int main() {
 
-    std::list<Song> playlist{
+    std::list<Song> playlist {
             {"God's Plan",        "Drake",                     5},
             {"Never Be The Same", "Camila Cabello",            5},
             {"Pray For Me",       "The Weekend and K. Lamar",  4},
