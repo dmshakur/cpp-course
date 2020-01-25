@@ -57,33 +57,55 @@ std::string clean_string(const std::string &s) {
 // Part1 process the file and builds a map of words and the 
 // number of times they occur in the file
 
-void part1() {
+void part1()
+{
     std::map<std::string, int> words;
     std::string line;       
     std::string word;   
-    std::ifstream in_file {"../words.txt"};
+    std::ifstream in_file {"./words.txt"};
     if (in_file) {
-        
-        // You implement this code
-        
+        while (!in_file.eof())
+        {
+            std::istringstream iss {line};
+            std::getline(in_file, line);
+            while (iss >> word)
+            {
+                if (words.count(clean_string(word)))
+                    words.at(clean_string(word))++;
+                else
+                    words.insert(std::make_pair<std::string, int>(clean_string(word), 1));
+            }
+        }
         in_file.close();
         display_words(words);
     } else {
         std::cerr << "Error opening input file" << std::endl;
     }
 }
-    
+
 // Part2 process the file and builds a map of words and a 
 // set of line numbers in which the word appears
 void part2() {
     std::map<std::string, std::set<int>> words;
     std::string line;
     std::string word;
-    std::ifstream in_file {"../words.txt"};
-    if (in_file) {
-     
-        // You implement this code
-        
+    std::ifstream in_file {"./words.txt"};
+    int line_number = 0;
+    if (in_file)
+    {
+        while (!in_file.eof())
+        {
+            std::istringstream iss {line};
+            std::getline(in_file, line);
+            while (iss >> word)
+            {
+                if (words.count(clean_string(word)))
+                    words.at(clean_string(word)).insert(line_number);
+                else
+                    words.insert(std::make_pair<std::string, std::set<int>>(clean_string(word), {1}));
+            }
+            ++line_number;
+        }
         in_file.close();
         display_words(words);
     } else {
@@ -92,7 +114,7 @@ void part2() {
 }
 
 int main() {
-    part1();
+    // part1();
     part2();
     return 0;
 }

@@ -57,7 +57,7 @@ void display_menu() {
 void play_current_song(const Song &song) {
     // This function should display 
     // Playing: followed by the song that is playing
-   
+
     std::cout << "You implement this function"<< std::endl;
 }
 

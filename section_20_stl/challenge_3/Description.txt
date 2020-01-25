@@ -5,7 +5,7 @@ Using std::set and std::map
 
 This challenge has 2 parts.
 We will be reading words from a text file provided to you.
-The text file is named 'words.txt' and contains the fist few
+The text file is named 'words.txt' and contains the first few
 paragraphs from the book, "The Wonderful Wizard of Oz", by 
 L. Frank Baum.
 
