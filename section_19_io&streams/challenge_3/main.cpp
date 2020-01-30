@@ -29,7 +29,10 @@ int main()
         std::cout << 0 << " words were searched...\nThe substring " << input << " was found " << word_count << " times\n";
     }
     else
-        std::cout << "File did not open";
+    {
+        std::cerr << "File did not open" << std::endl;
+        return 1;
+    }
 
     in_file.close();
     return 0;

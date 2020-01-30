@@ -1,0 +1,2044 @@
+   1 	ROMEO AND JULIET
+
+
+   4 	DRAMATIS PERSONAE
+
+
+   7 ESCALUS	prince of Verona. (PRINCE:)
+
+   9 PARIS	a young nobleman, kinsman to the prince.
+
+
+  12 MONTAGUE	|
+  13 	|  heads of two houses at variance with each other.
+  14 CAPULET	|
+
+
+  17 	An old man, cousin to Capulet. (Second Capulet:)
+
+  19 ROMEO	son to Montague.
+
+  21 MERCUTIO	kinsman to the prince, and friend to Romeo.
+
+  23 BENVOLIO	nephew to Montague, and friend to Romeo.
+
+  25 TYBALT	nephew to Lady Capulet.
+
+
+  28 FRIAR LAURENCE	|
+  29 	|  Franciscans.
+  30 FRIAR JOHN	|
+
+
+  33 BALTHASAR	servant to Romeo.
+
+
+  36 SAMPSON	|
+  37 	|  servants to Capulet.
+  38 GREGORY	|
+
+
+  41 PETER	servant to Juliet's nurse.
+
+  43 ABRAHAM	servant to Montague.
+
+  45 	An Apothecary. (Apothecary:)
+
+  47 	Three Musicians.
+  48 	(First Musician:)
+  49 	(Second Musician:)
+  50 	(Third Musician:)
+
+  52 	Page to Paris; (PAGE:)  another Page; an officer.
+
+  54 LADY MONTAGUE	wife to Montague.
+
+  56 LADY CAPULET	wife to Capulet.
+
+  58 JULIET	daughter to Capulet.
+
+  60 	Nurse to Juliet. (Nurse:)
+
+  62 	Citizens of Verona; several Men and Women,
+  63 	relations to both houses; Maskers,
+  64 	Guards, Watchmen, and Attendants.
+  65 	(First Citizen:)
+  66 	(Servant:)
+  67 	(First Servant:)
+  68 	(Second Servant:)
+  69 	(First Watchman:)
+  70 	(Second Watchman:)
+  71 	(Third Watchman:)
+  72 	Chorus.
+
+
+  75 SCENE	Verona: Mantua.
+
+
+
+
+  80 	ROMEO AND JULIET
+
+  82 	PROLOGUE
+
+
+  85 	Two households, both alike in dignity,
+  86 	In fair Verona, where we lay our scene,
+  87 	From ancient grudge break to new mutiny,
+  88 	Where civil blood makes civil hands unclean.
+  89 	From forth the fatal loins of these two foes
+  90 	A pair of star-cross'd lovers take their life;
+  91 	Whole misadventured piteous overthrows
+  92 	Do with their death bury their parents' strife.
+  93 	The fearful passage of their death-mark'd love,
+  94 	And the continuance of their parents' rage,
+  95 	Which, but their children's end, nought could remove,
+  96 	Is now the two hours' traffic of our stage;
+  97 	The which if you with patient ears attend,
+  98 	What here shall miss, our toil shall strive to mend.
+
+
+
+
+ 103 	ROMEO AND JULIET
+
+
+ 106 ACT I
+
+
+
+ 110 SCENE I	Verona. A public place.
+
+
+ 113 	[Enter SAMPSON and GREGORY, of the house of Capulet,
+ 114 	armed with swords and bucklers]
+
+ 116 SAMPSON	Gregory, o' my word, we'll not carry coals.
+
+ 118 GREGORY	No, for then we should be colliers.
+
+ 120 SAMPSON	I mean, an we be in choler, we'll draw.
+
+ 122 GREGORY	Ay, while you live, draw your neck out o' the collar.
+
+ 124 SAMPSON	I strike quickly, being moved.
+
+ 126 GREGORY	But thou art not quickly moved to strike.
+
+ 128 SAMPSON	A dog of the house of Montague moves me.
+
+ 130 GREGORY	To move is to stir; and to be valiant is to stand:
+ 131 	therefore, if thou art moved, thou runn'st away.
+
+ 133 SAMPSON	A dog of that house shall move me to stand: I will
+ 134 	take the wall of any man or maid of Montague's.
+
+ 136 GREGORY	That shows thee a weak slave; for the weakest goes
+ 137 	to the wall.
+
+ 139 SAMPSON	True; and therefore women, being the weaker vessels,
+ 140 	are ever thrust to the wall: therefore I will push
+ 141 	Montague's men from the wall, and thrust his maids
+ 142 	to the wall.
+
+ 144 GREGORY	The quarrel is between our masters and us their men.
+
+ 146 SAMPSON	'Tis all one, I will show myself a tyrant: when I
+ 147 	have fought with the men, I will be cruel with the
+ 148 	maids, and cut off their heads.
+
+ 150 GREGORY	The heads of the maids?
+
+ 152 SAMPSON	Ay, the heads of the maids, or their maidenheads;
+ 153 	take it in what sense thou wilt.
+
+ 155 GREGORY	They must take it in sense that feel it.
+
+ 157 SAMPSON	Me they shall feel while I am able to stand: and
+ 158 	'tis known I am a pretty piece of flesh.
+
+ 160 GREGORY	'Tis well thou art not fish; if thou hadst, thou
+ 161 	hadst been poor John. Draw thy tool! here comes
+ 162 	two of the house of the Montagues.
+
+ 164 SAMPSON	My naked weapon is out: quarrel, I will back thee.
+
+ 166 GREGORY	How! turn thy back and run?
+
+ 168 SAMPSON	Fear me not.
+
+ 170 GREGORY	No, marry; I fear thee!
+
+ 172 SAMPSON	Let us take the law of our sides; let them begin.
+
+ 174 GREGORY	I will frown as I pass by, and let them take it as
+ 175 	they list.
+
+ 177 SAMPSON	Nay, as they dare. I will bite my thumb at them;
+ 178 	which is a disgrace to them, if they bear it.
+
+ 180 	[Enter ABRAHAM and BALTHASAR]
+
+ 182 ABRAHAM	Do you bite your thumb at us, sir?
+
+ 184 SAMPSON	I do bite my thumb, sir.
+
+ 186 ABRAHAM	Do you bite your thumb at us, sir?
+
+ 188 SAMPSON	[Aside to GREGORY]  Is the law of our side, if I say
+ 189 	ay?
+
+ 191 GREGORY	No.
+
+ 193 SAMPSON	No, sir, I do not bite my thumb at you, sir, but I
+ 194 	bite my thumb, sir.
+
+ 196 GREGORY	Do you quarrel, sir?
+
+ 198 ABRAHAM	Quarrel sir! no, sir.
+
+ 200 SAMPSON	If you do, sir, I am for you: I serve as good a man as you.
+
+ 202 ABRAHAM	No better.
+
+ 204 SAMPSON	Well, sir.
+
+ 206 GREGORY	Say 'better:' here comes one of my master's kinsmen.
+
+ 208 SAMPSON	Yes, better, sir.
+
+ 210 ABRAHAM	You lie.
+
+ 212 SAMPSON	Draw, if you be men. Gregory, remember thy swashing blow.
+
+ 214 	[They fight]
+
+ 216 	[Enter BENVOLIO]
+
+ 218 BENVOLIO	Part, fools!
+ 219 	Put up your swords; you know not what you do.
+
+ 221 	[Beats down their swords]
+
+ 223 	[Enter TYBALT]
+
+ 225 TYBALT	What, art thou drawn among these heartless hinds?
+ 226 	Turn thee, Benvolio, look upon thy death.
+
+ 228 BENVOLIO	I do but keep the peace: put up thy sword,
+ 229 	Or manage it to part these men with me.
+
+ 231 TYBALT	What, drawn, and talk of peace! I hate the word,
+ 232 	As I hate hell, all Montagues, and thee:
+ 233 	Have at thee, coward!
+
+ 235 	[They fight]
+
+ 237 	[Enter, several of both houses, who join the fray;
+ 238 	then enter Citizens, with clubs]
+
+ 240 First Citizen	Clubs, bills, and partisans! strike! beat them down!
+ 241 	Down with the Capulets! down with the Montagues!
+
+ 243 	[Enter CAPULET in his gown, and LADY CAPULET]
+
+ 245 CAPULET	What noise is this? Give me my long sword, ho!
+
+ 247 LADY CAPULET	A crutch, a crutch! why call you for a sword?
+
+ 249 CAPULET	My sword, I say! Old Montague is come,
+ 250 	And flourishes his blade in spite of me.
+
+ 252 	[Enter MONTAGUE and LADY MONTAGUE]
+
+ 254 MONTAGUE	Thou villain Capulet,--Hold me not, let me go.
+
+ 256 LADY MONTAGUE	Thou shalt not stir a foot to seek a foe.
+
+ 258 	[Enter PRINCE, with Attendants]
+
+ 260 PRINCE	Rebellious subjects, enemies to peace,
+ 261 	Profaners of this neighbour-stained steel,--
+ 262 	Will they not hear? What, ho! you men, you beasts,
+ 263 	That quench the fire of your pernicious rage
+ 264 	With purple fountains issuing from your veins,
+ 265 	On pain of torture, from those bloody hands
+ 266 	Throw your mistemper'd weapons to the ground,
+ 267 	And hear the sentence of your moved prince.
+ 268 	Three civil brawls, bred of an airy word,
+ 269 	By thee, old Capulet, and Montague,
+ 270 	Have thrice disturb'd the quiet of our streets,
+ 271 	And made Verona's ancient citizens
+ 272 	Cast by their grave beseeming ornaments,
+ 273 	To wield old partisans, in hands as old,
+ 274 	Canker'd with peace, to part your canker'd hate:
+ 275 	If ever you disturb our streets again,
+ 276 	Your lives shall pay the forfeit of the peace.
+ 277 	For this time, all the rest depart away:
+ 278 	You Capulet; shall go along with me:
+ 279 	And, Montague, come you this afternoon,
+ 280 	To know our further pleasure in this case,
+ 281 	To old Free-town, our common judgment-place.
+ 282 	Once more, on pain of death, all men depart.
+
+ 284 	[Exeunt all but MONTAGUE, LADY MONTAGUE, and BENVOLIO]
+
+ 286 MONTAGUE	Who set this ancient quarrel new abroach?
+ 287 	Speak, nephew, were you by when it began?
+
+ 289 BENVOLIO	Here were the servants of your adversary,
+ 290 	And yours, close fighting ere I did approach:
+ 291 	I drew to part them: in the instant came
+ 292 	The fiery Tybalt, with his sword prepared,
+ 293 	Which, as he breathed defiance to my ears,
+ 294 	He swung about his head and cut the winds,
+ 295 	Who nothing hurt withal hiss'd him in scorn:
+ 296 	While we were interchanging thrusts and blows,
+ 297 	Came more and more and fought on part and part,
+ 298 	Till the prince came, who parted either part.
+
+ 300 LADY MONTAGUE	O, where is Romeo? saw you him to-day?
+ 301 	Right glad I am he was not at this fray.
+
+ 303 BENVOLIO	Madam, an hour before the worshipp'd sun
+ 304 	Peer'd forth the golden window of the east,
+ 305 	A troubled mind drave me to walk abroad;
+ 306 	Where, underneath the grove of sycamore
+ 307 	That westward rooteth from the city's side,
+ 308 	So early walking did I see your son:
+ 309 	Towards him I made, but he was ware of me
+ 310 	And stole into the covert of the wood:
+ 311 	I, measuring his affections by my own,
+ 312 	That most are busied when they're most alone,
+ 313 	Pursued my humour not pursuing his,
+ 314 	And gladly shunn'd who gladly fled from me.
+
+ 316 MONTAGUE	Many a morning hath he there been seen,
+ 317 	With tears augmenting the fresh morning dew.
+ 318 	Adding to clouds more clouds with his deep sighs;
+ 319 	But all so soon as the all-cheering sun
+ 320 	Should in the furthest east begin to draw
+ 321 	The shady curtains from Aurora's bed,
+ 322 	Away from the light steals home my heavy son,
+ 323 	And private in his chamber pens himself,
+ 324 	Shuts up his windows, locks far daylight out
+ 325 	And makes himself an artificial night:
+ 326 	Black and portentous must this humour prove,
+ 327 	Unless good counsel may the cause remove.
+
+ 329 BENVOLIO	My noble uncle, do you know the cause?
+
+ 331 MONTAGUE	I neither know it nor can learn of him.
+
+ 333 BENVOLIO	Have you importuned him by any means?
+
+ 335 MONTAGUE	Both by myself and many other friends:
+ 336 	But he, his own affections' counsellor,
+ 337 	Is to himself--I will not say how true--
+ 338 	But to himself so secret and so close,
+ 339 	So far from sounding and discovery,
+ 340 	As is the bud bit with an envious worm,
+ 341 	Ere he can spread his sweet leaves to the air,
+ 342 	Or dedicate his beauty to the sun.
+ 343 	Could we but learn from whence his sorrows grow.
+ 344 	We would as willingly give cure as know.
+
+ 346 	[Enter ROMEO]
+
+ 348 BENVOLIO	See, where he comes: so please you, step aside;
+ 349 	I'll know his grievance, or be much denied.
+
+ 351 MONTAGUE	I would thou wert so happy by thy stay,
+ 352 	To hear true shrift. Come, madam, let's away.
+
+ 354 	[Exeunt MONTAGUE and LADY MONTAGUE]
+
+ 356 BENVOLIO	Good-morrow, cousin.
+
+ 358 ROMEO	Is the day so young?
+
+ 360 BENVOLIO	But new struck nine.
+
+ 362 ROMEO	Ay me! sad hours seem long.
+ 363 	Was that my father that went hence so fast?
+
+ 365 BENVOLIO	It was. What sadness lengthens Romeo's hours?
+
+ 367 ROMEO	Not having that, which, having, makes them short.
+
+ 369 BENVOLIO	In love?
+
+ 371 ROMEO	Out--
+
+ 373 BENVOLIO	Of love?
+
+ 375 ROMEO	Out of her favour, where I am in love.
+
+ 377 BENVOLIO	Alas, that love, so gentle in his view,
+ 378 	Should be so tyrannous and rough in proof!
+
+ 380 ROMEO	Alas, that love, whose view is muffled still,
+ 381 	Should, without eyes, see pathways to his will!
+ 382 	Where shall we dine? O me! What fray was here?
+ 383 	Yet tell me not, for I have heard it all.
+ 384 	Here's much to do with hate, but more with love.
+ 385 	Why, then, O brawling love! O loving hate!
+ 386 	O any thing, of nothing first create!
+ 387 	O heavy lightness! serious vanity!
+ 388 	Mis-shapen chaos of well-seeming forms!
+ 389 	Feather of lead, bright smoke, cold fire,
+ 390 	sick health!
+ 391 	Still-waking sleep, that is not what it is!
+ 392 	This love feel I, that feel no love in this.
+ 393 	Dost thou not laugh?
+
+ 395 BENVOLIO	No, coz, I rather weep.
+
+ 397 ROMEO	Good heart, at what?
+
+ 399 BENVOLIO	At thy good heart's oppression.
+
+ 401 ROMEO	Why, such is love's transgression.
+ 402 	Griefs of mine own lie heavy in my breast,
+ 403 	Which thou wilt propagate, to have it prest
+ 404 	With more of thine: this love that thou hast shown
+ 405 	Doth add more grief to too much of mine own.
+ 406 	Love is a smoke raised with the fume of sighs;
+ 407 	Being purged, a fire sparkling in lovers' eyes;
+ 408 	Being vex'd a sea nourish'd with lovers' tears:
+ 409 	What is it else? a madness most discreet,
+ 410 	A choking gall and a preserving sweet.
+ 411 	Farewell, my coz.
+
+ 413 BENVOLIO	                  Soft! I will go along;
+ 414 	An if you leave me so, you do me wrong.
+
+ 416 ROMEO	Tut, I have lost myself; I am not here;
+ 417 	This is not Romeo, he's some other where.
+
+ 419 BENVOLIO	Tell me in sadness, who is that you love.
+
+ 421 ROMEO	What, shall I groan and tell thee?
+
+ 423 BENVOLIO	Groan! why, no.
+ 424 	But sadly tell me who.
+
+ 426 ROMEO	Bid a sick man in sadness make his will:
+ 427 	Ah, word ill urged to one that is so ill!
+ 428 	In sadness, cousin, I do love a woman.
+
+ 430 BENVOLIO	I aim'd so near, when I supposed you loved.
+
+ 432 ROMEO	A right good mark-man! And she's fair I love.
+
+ 434 BENVOLIO	A right fair mark, fair coz, is soonest hit.
+
+ 436 ROMEO	Well, in that hit you miss: she'll not be hit
+ 437 	With Cupid's arrow; she hath Dian's wit;
+ 438 	And, in strong proof of chastity well arm'd,
+ 439 	From love's weak childish bow she lives unharm'd.
+ 440 	She will not stay the siege of loving terms,
+ 441 	Nor bide the encounter of assailing eyes,
+ 442 	Nor ope her lap to saint-seducing gold:
+ 443 	O, she is rich in beauty, only poor,
+ 444 	That when she dies with beauty dies her store.
+
+ 446 BENVOLIO	Then she hath sworn that she will still live chaste?
+
+ 448 ROMEO	She hath, and in that sparing makes huge waste,
+ 449 	For beauty starved with her severity
+ 450 	Cuts beauty off from all posterity.
+ 451 	She is too fair, too wise, wisely too fair,
+ 452 	To merit bliss by making me despair:
+ 453 	She hath forsworn to love, and in that vow
+ 454 	Do I live dead that live to tell it now.
+
+ 456 BENVOLIO	Be ruled by me, forget to think of her.
+
+ 458 ROMEO	O, teach me how I should forget to think.
+
+ 460 BENVOLIO	By giving liberty unto thine eyes;
+ 461 	Examine other beauties.
+
+ 463 ROMEO	'Tis the way
+ 464 	To call hers exquisite, in question more:
+ 465 	These happy masks that kiss fair ladies' brows
+ 466 	Being black put us in mind they hide the fair;
+ 467 	He that is strucken blind cannot forget
+ 468 	The precious treasure of his eyesight lost:
+ 469 	Show me a mistress that is passing fair,
+ 470 	What doth her beauty serve, but as a note
+ 471 	Where I may read who pass'd that passing fair?
+ 472 	Farewell: thou canst not teach me to forget.
+
+ 474 BENVOLIO	I'll pay that doctrine, or else die in debt.
+
+ 476 	[Exeunt]
+
+
+
+
+ 481 	ROMEO AND JULIET
+
+
+ 484 ACT I
+
+
+
+ 488 SCENE II	A street.
+
+
+ 491 	[Enter CAPULET, PARIS, and Servant]
+
+ 493 CAPULET	But Montague is bound as well as I,
+ 494 	In penalty alike; and 'tis not hard, I think,
+ 495 	For men so old as we to keep the peace.
+
+ 497 PARIS	Of honourable reckoning are you both;
+ 498 	And pity 'tis you lived at odds so long.
+ 499 	But now, my lord, what say you to my suit?
+
+ 501 CAPULET	But saying o'er what I have said before:
+ 502 	My child is yet a stranger in the world;
+ 503 	She hath not seen the change of fourteen years,
+ 504 	Let two more summers wither in their pride,
+ 505 	Ere we may think her ripe to be a bride.
+
+ 507 PARIS	Younger than she are happy mothers made.
+
+ 509 CAPULET	And too soon marr'd are those so early made.
+ 510 	The earth hath swallow'd all my hopes but she,
+ 511 	She is the hopeful lady of my earth:
+ 512 	But woo her, gentle Paris, get her heart,
+ 513 	My will to her consent is but a part;
+ 514 	An she agree, within her scope of choice
+ 515 	Lies my consent and fair according voice.
+ 516 	This night I hold an old accustom'd feast,
+ 517 	Whereto I have invited many a guest,
+ 518 	Such as I love; and you, among the store,
+ 519 	One more, most welcome, makes my number more.
+ 520 	At my poor house look to behold this night
+ 521 	Earth-treading stars that make dark heaven light:
+ 522 	Such comfort as do lusty young men feel
+ 523 	When well-apparell'd April on the heel
+ 524 	Of limping winter treads, even such delight
+ 525 	Among fresh female buds shall you this night
+ 526 	Inherit at my house; hear all, all see,
+ 527 	And like her most whose merit most shall be:
+ 528 	Which on more view, of many mine being one
+ 529 	May stand in number, though in reckoning none,
+ 530 	Come, go with me.
+
+ 532 	[To Servant, giving a paper]
+
+ 534 	Go, sirrah, trudge about
+ 535 	Through fair Verona; find those persons out
+ 536 	Whose names are written there, and to them say,
+ 537 	My house and welcome on their pleasure stay.
+
+ 539 	[Exeunt CAPULET and PARIS]
+
+ 541 Servant	Find them out whose names are written here! It is
+ 542 	written, that the shoemaker should meddle with his
+ 543 	yard, and the tailor with his last, the fisher with
+ 544 	his pencil, and the painter with his nets; but I am
+ 545 	sent to find those persons whose names are here
+ 546 	writ, and can never find what names the writing
+ 547 	person hath here writ. I must to the learned.--In good time.
+
+ 549 	[Enter BENVOLIO and ROMEO]
+
+ 551 BENVOLIO	Tut, man, one fire burns out another's burning,
+ 552 	One pain is lessen'd by another's anguish;
+ 553 	Turn giddy, and be holp by backward turning;
+ 554 	One desperate grief cures with another's languish:
+ 555 	Take thou some new infection to thy eye,
+ 556 	And the rank poison of the old will die.
+
+ 558 ROMEO	Your plaintain-leaf is excellent for that.
+
+ 560 BENVOLIO	For what, I pray thee?
+
+ 562 ROMEO	For your broken shin.
+
+ 564 BENVOLIO	Why, Romeo, art thou mad?
+
+ 566 ROMEO	Not mad, but bound more than a mad-man is;
+ 567 	Shut up in prison, kept without my food,
+ 568 	Whipp'd and tormented and--God-den, good fellow.
+
+ 570 Servant	God gi' god-den. I pray, sir, can you read?
+
+ 572 ROMEO	Ay, mine own fortune in my misery.
+
+ 574 Servant	Perhaps you have learned it without book: but, I
+ 575 	pray, can you read any thing you see?
+
+ 577 ROMEO	Ay, if I know the letters and the language.
+
+ 579 Servant	Ye say honestly: rest you merry!
+
+ 581 ROMEO	Stay, fellow; I can read.
+
+ 583 	[Reads]
+
+ 585 	'Signior Martino and his wife and daughters;
+ 586 	County Anselme and his beauteous sisters; the lady
+ 587 	widow of Vitravio; Signior Placentio and his lovely
+ 588 	nieces; Mercutio and his brother Valentine; mine
+ 589 	uncle Capulet, his wife and daughters; my fair niece
+ 590 	Rosaline; Livia; Signior Valentio and his cousin
+ 591 	Tybalt, Lucio and the lively Helena.' A fair
+ 592 	assembly: whither should they come?
+
+ 594 Servant	Up.
+
+ 596 ROMEO	Whither?
+
+ 598 Servant	To supper; to our house.
+
+ 600 ROMEO	Whose house?
+
+ 602 Servant	My master's.
+
+ 604 ROMEO	Indeed, I should have ask'd you that before.
+
+ 606 Servant	Now I'll tell you without asking: my master is the
+ 607 	great rich Capulet; and if you be not of the house
+ 608 	of Montagues, I pray, come and crush a cup of wine.
+ 609 	Rest you merry!
+
+ 611 	[Exit]
+
+ 613 BENVOLIO	At this same ancient feast of Capulet's
+ 614 	Sups the fair Rosaline whom thou so lovest,
+ 615 	With all the admired beauties of Verona:
+ 616 	Go thither; and, with unattainted eye,
+ 617 	Compare her face with some that I shall show,
+ 618 	And I will make thee think thy swan a crow.
+
+ 620 ROMEO	When the devout religion of mine eye
+ 621 	Maintains such falsehood, then turn tears to fires;
+ 622 	And these, who often drown'd could never die,
+ 623 	Transparent heretics, be burnt for liars!
+ 624 	One fairer than my love! the all-seeing sun
+ 625 	Ne'er saw her match since first the world begun.
+
+ 627 BENVOLIO	Tut, you saw her fair, none else being by,
+ 628 	Herself poised with herself in either eye:
+ 629 	But in that crystal scales let there be weigh'd
+ 630 	Your lady's love against some other maid
+ 631 	That I will show you shining at this feast,
+ 632 	And she shall scant show well that now shows best.
+
+ 634 ROMEO	I'll go along, no such sight to be shown,
+ 635 	But to rejoice in splendor of mine own.
+
+ 637 	[Exeunt]
+
+
+
+
+ 642 	ROMEO AND JULIET
+
+
+ 645 ACT I
+
+
+
+ 649 SCENE III	A room in Capulet's house.
+
+
+ 652 	[Enter LADY CAPULET and Nurse]
+
+ 654 LADY CAPULET	Nurse, where's my daughter? call her forth to me.
+
+ 656 Nurse	Now, by my maidenhead, at twelve year old,
+ 657 	I bade her come. What, lamb! what, ladybird!
+ 658 	God forbid! Where's this girl? What, Juliet!
+
+ 660 	[Enter JULIET]
+
+ 662 JULIET	How now! who calls?
+
+ 664 Nurse	Your mother.
+
+ 666 JULIET	Madam, I am here.
+ 667 	What is your will?
+
+ 669 LADY CAPULET	This is the matter:--Nurse, give leave awhile,
+ 670 	We must talk in secret:--nurse, come back again;
+ 671 	I have remember'd me, thou's hear our counsel.
+ 672 	Thou know'st my daughter's of a pretty age.
+
+ 674 Nurse	Faith, I can tell her age unto an hour.
+
+ 676 LADY CAPULET	She's not fourteen.
+
+ 678 Nurse	I'll lay fourteen of my teeth,--
+ 679 	And yet, to my teeth be it spoken, I have but four--
+ 680 	She is not fourteen. How long is it now
+ 681 	To Lammas-tide?
+
+ 683 LADY CAPULET	                  A fortnight and odd days.
+
+ 685 Nurse	Even or odd, of all days in the year,
+ 686 	Come Lammas-eve at night shall she be fourteen.
+ 687 	Susan and she--God rest all Christian souls!--
+ 688 	Were of an age: well, Susan is with God;
+ 689 	She was too good for me: but, as I said,
+ 690 	On Lammas-eve at night shall she be fourteen;
+ 691 	That shall she, marry; I remember it well.
+ 692 	'Tis since the earthquake now eleven years;
+ 693 	And she was wean'd,--I never shall forget it,--
+ 694 	Of all the days of the year, upon that day:
+ 695 	For I had then laid wormwood to my dug,
+ 696 	Sitting in the sun under the dove-house wall;
+ 697 	My lord and you were then at Mantua:--
+ 698 	Nay, I do bear a brain:--but, as I said,
+ 699 	When it did taste the wormwood on the nipple
+ 700 	Of my dug and felt it bitter, pretty fool,
+ 701 	To see it tetchy and fall out with the dug!
+ 702 	Shake quoth the dove-house: 'twas no need, I trow,
+ 703 	To bid me trudge:
+ 704 	And since that time it is eleven years;
+ 705 	For then she could stand alone; nay, by the rood,
+ 706 	She could have run and waddled all about;
+ 707 	For even the day before, she broke her brow:
+ 708 	And then my husband--God be with his soul!
+ 709 	A' was a merry man--took up the child:
+ 710 	'Yea,' quoth he, 'dost thou fall upon thy face?
+ 711 	Thou wilt fall backward when thou hast more wit;
+ 712 	Wilt thou not, Jule?' and, by my holidame,
+ 713 	The pretty wretch left crying and said 'Ay.'
+ 714 	To see, now, how a jest shall come about!
+ 715 	I warrant, an I should live a thousand years,
+ 716 	I never should forget it: 'Wilt thou not, Jule?' quoth he;
+ 717 	And, pretty fool, it stinted and said 'Ay.'
+
+ 719 LADY CAPULET	Enough of this; I pray thee, hold thy peace.
+
+ 721 Nurse	Yes, madam: yet I cannot choose but laugh,
+ 722 	To think it should leave crying and say 'Ay.'
+ 723 	And yet, I warrant, it had upon its brow
+ 724 	A bump as big as a young cockerel's stone;
+ 725 	A parlous knock; and it cried bitterly:
+ 726 	'Yea,' quoth my husband,'fall'st upon thy face?
+ 727 	Thou wilt fall backward when thou comest to age;
+ 728 	Wilt thou not, Jule?' it stinted and said 'Ay.'
+
+ 730 JULIET	And stint thou too, I pray thee, nurse, say I.
+
+ 732 Nurse	Peace, I have done. God mark thee to his grace!
+ 733 	Thou wast the prettiest babe that e'er I nursed:
+ 734 	An I might live to see thee married once,
+ 735 	I have my wish.
+
+ 737 LADY CAPULET	Marry, that 'marry' is the very theme
+ 738 	I came to talk of. Tell me, daughter Juliet,
+ 739 	How stands your disposition to be married?
+
+ 741 JULIET	It is an honour that I dream not of.
+
+ 743 Nurse	An honour! were not I thine only nurse,
+ 744 	I would say thou hadst suck'd wisdom from thy teat.
+
+ 746 LADY CAPULET	Well, think of marriage now; younger than you,
+ 747 	Here in Verona, ladies of esteem,
+ 748 	Are made already mothers: by my count,
+ 749 	I was your mother much upon these years
+ 750 	That you are now a maid. Thus then in brief:
+ 751 	The valiant Paris seeks you for his love.
+
+ 753 Nurse	A man, young lady! lady, such a man
+ 754 	As all the world--why, he's a man of wax.
+
+ 756 LADY CAPULET	Verona's summer hath not such a flower.
+
+ 758 Nurse	Nay, he's a flower; in faith, a very flower.
+
+ 760 LADY CAPULET	What say you? can you love the gentleman?
+ 761 	This night you shall behold him at our feast;
+ 762 	Read o'er the volume of young Paris' face,
+ 763 	And find delight writ there with beauty's pen;
+ 764 	Examine every married lineament,
+ 765 	And see how one another lends content
+ 766 	And what obscured in this fair volume lies
+ 767 	Find written in the margent of his eyes.
+ 768 	This precious book of love, this unbound lover,
+ 769 	To beautify him, only lacks a cover:
+ 770 	The fish lives in the sea, and 'tis much pride
+ 771 	For fair without the fair within to hide:
+ 772 	That book in many's eyes doth share the glory,
+ 773 	That in gold clasps locks in the golden story;
+ 774 	So shall you share all that he doth possess,
+ 775 	By having him, making yourself no less.
+
+ 777 Nurse	No less! nay, bigger; women grow by men.
+
+ 779 LADY CAPULET	Speak briefly, can you like of Paris' love?
+
+ 781 JULIET	I'll look to like, if looking liking move:
+ 782 	But no more deep will I endart mine eye
+ 783 	Than your consent gives strength to make it fly.
+
+ 785 	[Enter a Servant]
+
+ 787 Servant	Madam, the guests are come, supper served up, you
+ 788 	called, my young lady asked for, the nurse cursed in
+ 789 	the pantry, and every thing in extremity. I must
+ 790 	hence to wait; I beseech you, follow straight.
+
+ 792 LADY CAPULET	We follow thee.
+
+ 794 	[Exit Servant]
+
+ 796 	Juliet, the county stays.
+
+ 798 Nurse	Go, girl, seek happy nights to happy days.
+
+ 800 	[Exeunt]
+
+
+
+
+ 805 	ROMEO AND JULIET
+
+
+ 808 ACT I
+
+
+
+ 812 SCENE IV	A street.
+
+
+ 815 	[Enter ROMEO, MERCUTIO, BENVOLIO, with five or six
+ 816 	Maskers, Torch-bearers, and others]
+
+ 818 ROMEO	What, shall this speech be spoke for our excuse?
+ 819 	Or shall we on without a apology?
+
+ 821 BENVOLIO	The date is out of such prolixity:
+ 822 	We'll have no Cupid hoodwink'd with a scarf,
+ 823 	Bearing a Tartar's painted bow of lath,
+ 824 	Scaring the ladies like a crow-keeper;
+ 825 	Nor no without-book prologue, faintly spoke
+ 826 	After the prompter, for our entrance:
+ 827 	But let them measure us by what they will;
+ 828 	We'll measure them a measure, and be gone.
+
+ 830 ROMEO	Give me a torch: I am not for this ambling;
+ 831 	Being but heavy, I will bear the light.
+
+ 833 MERCUTIO	Nay, gentle Romeo, we must have you dance.
+
+ 835 ROMEO	Not I, believe me: you have dancing shoes
+ 836 	With nimble soles: I have a soul of lead
+ 837 	So stakes me to the ground I cannot move.
+
+ 839 MERCUTIO	You are a lover; borrow Cupid's wings,
+ 840 	And soar with them above a common bound.
+
+ 842 ROMEO	I am too sore enpierced with his shaft
+ 843 	To soar with his light feathers, and so bound,
+ 844 	I cannot bound a pitch above dull woe:
+ 845 	Under love's heavy burden do I sink.
+
+ 847 MERCUTIO	And, to sink in it, should you burden love;
+ 848 	Too great oppression for a tender thing.
+
+ 850 ROMEO	Is love a tender thing? it is too rough,
+ 851 	Too rude, too boisterous, and it pricks like thorn.
+
+ 853 MERCUTIO	If love be rough with you, be rough with love;
+ 854 	Prick love for pricking, and you beat love down.
+ 855 	Give me a case to put my visage in:
+ 856 	A visor for a visor! what care I
+ 857 	What curious eye doth quote deformities?
+ 858 	Here are the beetle brows shall blush for me.
+
+ 860 BENVOLIO	Come, knock and enter; and no sooner in,
+ 861 	But every man betake him to his legs.
+
+ 863 ROMEO	A torch for me: let wantons light of heart
+ 864 	Tickle the senseless rushes with their heels,
+ 865 	For I am proverb'd with a grandsire phrase;
+ 866 	I'll be a candle-holder, and look on.
+ 867 	The game was ne'er so fair, and I am done.
+
+ 869 MERCUTIO	Tut, dun's the mouse, the constable's own word:
+ 870 	If thou art dun, we'll draw thee from the mire
+ 871 	Of this sir-reverence love, wherein thou stick'st
+ 872 	Up to the ears. Come, we burn daylight, ho!
+
+ 874 ROMEO	Nay, that's not so.
+
+ 876 MERCUTIO	I mean, sir, in delay
+ 877 	We waste our lights in vain, like lamps by day.
+ 878 	Take our good meaning, for our judgment sits
+ 879 	Five times in that ere once in our five wits.
+
+ 881 ROMEO	And we mean well in going to this mask;
+ 882 	But 'tis no wit to go.
+
+ 884 MERCUTIO	Why, may one ask?
+
+ 886 ROMEO	I dream'd a dream to-night.
+
+ 888 MERCUTIO	And so did I.
+
+ 890 ROMEO	Well, what was yours?
+
+ 892 MERCUTIO	That dreamers often lie.
+
+ 894 ROMEO	In bed asleep, while they do dream things true.
+
+ 896 MERCUTIO	O, then, I see Queen Mab hath been with you.
+ 897 	She is the fairies' midwife, and she comes
+ 898 	In shape no bigger than an agate-stone
+ 899 	On the fore-finger of an alderman,
+ 900 	Drawn with a team of little atomies
+ 901 	Athwart men's noses as they lie asleep;
+ 902 	Her wagon-spokes made of long spiders' legs,
+ 903 	The cover of the wings of grasshoppers,
+ 904 	The traces of the smallest spider's web,
+ 905 	The collars of the moonshine's watery beams,
+ 906 	Her whip of cricket's bone, the lash of film,
+ 907 	Her wagoner a small grey-coated gnat,
+ 908 	Not so big as a round little worm
+ 909 	Prick'd from the lazy finger of a maid;
+ 910 	Her chariot is an empty hazel-nut
+ 911 	Made by the joiner squirrel or old grub,
+ 912 	Time out o' mind the fairies' coachmakers.
+ 913 	And in this state she gallops night by night
+ 914 	Through lovers' brains, and then they dream of love;
+ 915 	O'er courtiers' knees, that dream on court'sies straight,
+ 916 	O'er lawyers' fingers, who straight dream on fees,
+ 917 	O'er ladies ' lips, who straight on kisses dream,
+ 918 	Which oft the angry Mab with blisters plagues,
+ 919 	Because their breaths with sweetmeats tainted are:
+ 920 	Sometime she gallops o'er a courtier's nose,
+ 921 	And then dreams he of smelling out a suit;
+ 922 	And sometime comes she with a tithe-pig's tail
+ 923 	Tickling a parson's nose as a' lies asleep,
+ 924 	Then dreams, he of another benefice:
+ 925 	Sometime she driveth o'er a soldier's neck,
+ 926 	And then dreams he of cutting foreign throats,
+ 927 	Of breaches, ambuscadoes, Spanish blades,
+ 928 	Of healths five-fathom deep; and then anon
+ 929 	Drums in his ear, at which he starts and wakes,
+ 930 	And being thus frighted swears a prayer or two
+ 931 	And sleeps again. This is that very Mab
+ 932 	That plats the manes of horses in the night,
+ 933 	And bakes the elflocks in foul sluttish hairs,
+ 934 	Which once untangled, much misfortune bodes:
+ 935 	This is the hag, when maids lie on their backs,
+ 936 	That presses them and learns them first to bear,
+ 937 	Making them women of good carriage:
+ 938 	This is she--
+
+ 940 ROMEO	                  Peace, peace, Mercutio, peace!
+ 941 	Thou talk'st of nothing.
+
+ 943 MERCUTIO	True, I talk of dreams,
+ 944 	Which are the children of an idle brain,
+ 945 	Begot of nothing but vain fantasy,
+ 946 	Which is as thin of substance as the air
+ 947 	And more inconstant than the wind, who wooes
+ 948 	Even now the frozen bosom of the north,
+ 949 	And, being anger'd, puffs away from thence,
+ 950 	Turning his face to the dew-dropping south.
+
+ 952 BENVOLIO	This wind, you talk of, blows us from ourselves;
+ 953 	Supper is done, and we shall come too late.
+
+ 955 ROMEO	I fear, too early: for my mind misgives
+ 956 	Some consequence yet hanging in the stars
+ 957 	Shall bitterly begin his fearful date
+ 958 	With this night's revels and expire the term
+ 959 	Of a despised life closed in my breast
+ 960 	By some vile forfeit of untimely death.
+ 961 	But He, that hath the steerage of my course,
+ 962 	Direct my sail! On, lusty gentlemen.
+
+ 964 BENVOLIO	Strike, drum.
+
+ 966 	[Exeunt]
+
+
+
+
+ 971 	ROMEO AND JULIET
+
+
+ 974 ACT I
+
+
+
+ 978 SCENE V	A hall in Capulet's house.
+
+
+ 981 	[Musicians waiting. Enter Servingmen with napkins]
+
+ 983 First Servant	Where's Potpan, that he helps not to take away? He
+ 984 	shift a trencher? he scrape a trencher!
+
+ 986 Second Servant	When good manners shall lie all in one or two men's
+ 987 	hands and they unwashed too, 'tis a foul thing.
+
+ 989 First Servant	Away with the joint-stools, remove the
+ 990 	court-cupboard, look to the plate. Good thou, save
+ 991 	me a piece of marchpane; and, as thou lovest me, let
+ 992 	the porter let in Susan Grindstone and Nell.
+ 993 	Antony, and Potpan!
+
+ 995 Second Servant	Ay, boy, ready.
+
+ 997 First Servant	You are looked for and called for, asked for and
+ 998 	sought for, in the great chamber.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
