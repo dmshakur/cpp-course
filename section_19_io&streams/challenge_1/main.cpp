@@ -59,8 +59,8 @@ int main()
     std::cout << std::endl << std::setw(40) << tours.title << std::endl;
     for (auto country : tours.countries)
     {
-        std::cout << country.name << std::setw('30') << std::setfill('-') << std::endl;
-
+        std::cout << country.name << std::setfill('_') << std::endl;
+        std::setfill('');
         for (auto city : country.cities)
             std::cout 
             << std::setw(30) 
