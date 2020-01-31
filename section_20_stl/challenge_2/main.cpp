@@ -8,16 +8,26 @@
 #include <cctype>
 #include <iomanip>
 #include <limits>
+#include <sstream>
 
 class Song {
     friend std::ostream &operator<<(std::ostream &os, const Song &s);
     std::string name;
     std::string artist;
     int rating;
-public:
+  public:
     Song() = default;
     Song(std::string name, std::string artist, int rating)
             : name{name}, artist{artist}, rating{rating} {}
+    std::string set_name(std::string new_name) {
+        name = new_name;
+    }
+    std::string set_artist(std::string new_artist) {
+        artist = new_artist;
+    }
+    int set_rating(int new_rating) {
+        rating = new_rating;
+    }
     std::string get_name() const {
         return name;
     }
@@ -27,7 +37,6 @@ public:
     int get_rating() const {
         return rating;
     }
-    
     bool operator<(const Song &rhs) const  {
         return this->name < rhs.name;
     }
@@ -55,21 +64,17 @@ void display_menu() {
 }
 
 void play_current_song(const Song &song) {
-    // This function should display 
-    // Playing: followed by the song that is playing
-
-    std::cout << "You implement this function"<< std::endl;
+    std::cout << "\nPlaying:\n" << song << std::endl;
 }
 
 void display_playlist(const std::list<Song> &playlist, const Song &current_song) {
-    // This function should display the current playlist 
-    // and then the current song playing.
-    
-    std::cout << "You implement this function" << std::endl;
+    std::cout << std::endl;
+    for (auto song : playlist)
+        std::cout << song << (song == current_song ? " < current song\n" : "\n");
 }
 
-int main() {
-
+int main()
+{
     std::list<Song> playlist {
             {"God's Plan",        "Drake",                     5},
             {"Never Be The Same", "Camila Cabello",            5},
@@ -78,11 +83,78 @@ int main() {
             {"Wait",              "Maroone 5",                 4},
             {"Whatever It Takes", "Imagine Dragons",           3}          
     };
-    
-    std::list<Song>::iterator current_song = playlist.begin();
-    
-    std::cout << "To be implemented" << std::endl;
-    // Your program logic goes here
+
+    auto current_song = playlist.begin();
+
+    char input;
+
+    while (input != 'q')
+    {
+        std::cout << std::endl;
+        display_menu();
+        std::cin >> input;
+
+        tolower(input);
+
+        switch(input)
+        {
+            case 'f':
+                current_song = playlist.begin();
+                break;
+            case 'n':
+                {
+                    if (*current_song == playlist.back())
+                        current_song = playlist.begin();
+                    else
+                        ++current_song;
+                    play_current_song(*current_song);
+                }
+                break;
+            case 'p':
+                {
+                    if (*current_song == playlist.front())
+                        while (!(*current_song == playlist.back()))
+                            ++current_song;
+                    else
+                        --current_song;
+                    play_current_song(*current_song);
+                }
+                break;
+            case 'a':
+                {
+                    Song temp;
+                    std::string name, artist;
+                    int rating;
+
+                    std::cout << "\nEnter song info now, Song title: ";
+                    std::cin >> name;
+                    std::cin.clear();
+                    std::cin.ignore(std::numeric_limits<std::streamsize>::max(),'\n');
+                    temp.set_name(name);
+
+                    std::cout << "\nEnter artist name: ";
+                    std::cin >> artist;
+                    std::cin.clear();
+                    std::cin.ignore(std::numeric_limits<std::streamsize>::max(),'\n');
+                    temp.set_artist(artist);
+
+                    std::cout << "\nEnter 0-5 rating for song: ";
+                    std::cin >> rating;
+                    std::cin.clear();
+                    std::cin.ignore(std::numeric_limits<std::streamsize>::max(),'\n');
+                    temp.set_rating(rating);
+
+                    playlist.emplace(current_song, name, artist, rating);
+                    play_current_song(*current_song);
+                }
+                break;
+            case 'l':
+                display_playlist(playlist, *current_song);
+                break;
+            case 'q':
+                break;
+        }
+    }
 
     std::cout << "Thanks for listening!" << std::endl;
     return 0;
