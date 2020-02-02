@@ -2,7 +2,7 @@
 #define _CHECKING_ACCOUNT_H_
 #include <iostream>
 #include <string>
-#include "Account.cpp"
+#include "Account.h"
 
 class Checking_Account: public Account {
 private:
@@ -14,7 +14,6 @@ public:
     virtual bool withdraw(double) override;
     virtual bool deposit(double) override;
     virtual void print(std::ostream &os) const override;
-
     virtual ~Checking_Account() = default;
 };
 

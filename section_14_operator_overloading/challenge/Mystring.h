@@ -9,14 +9,15 @@ class Mystring
 private:
     char *str;      // pointer to a char[] that holds a C-style string
 public:
-    Mystring();                                                         // No-args constructor
-    Mystring(const char *s);                                     // Overloaded constructor
-    Mystring(const Mystring &source);                    // Copy constructor
-    Mystring( Mystring &&source);                         // Move constructor
-    ~Mystring();                                                     // Destructor
+    Mystring();                                    // No-args constructor
+    Mystring(const char *s);                       // Overloaded constructor
+    Mystring(const Mystring &source);              // Copy constructor
+    Mystring( Mystring &&source);                  // Move constructor
+    ~Mystring();                                   // Destructor
     
-    Mystring &operator=(const Mystring &rhs);     // Copy assignment
+    Mystring &operator=(const Mystring &rhs);      // Copy assignment
     Mystring &operator=(Mystring &&rhs);           // Move assignment
+    Mystring &operator-(Mystring rhs);
     
     void display() const;
     

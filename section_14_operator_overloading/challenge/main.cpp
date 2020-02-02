@@ -55,8 +55,8 @@ int main() {
 //   s = -1;
 //   cout << s << endl;
 //   result = s++;
-  cout << s << endl;
-  cout << result << endl;
+  // cout << s << endl;
+  // cout << result << endl;
 
   return 0;
 }

@@ -10,8 +10,6 @@ Checking_Account::Checking_Account(std::string name, double balance)
 
 
 bool Checking_Account::withdraw(double amount) {
-    if ((amount + per_check_fee) < 0)
-        throw InsufficientFundsException;
     amount += per_check_fee;
     return Account::withdraw(amount);
 }

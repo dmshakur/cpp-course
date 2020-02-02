@@ -31,14 +31,15 @@ Mystring::Mystring(const Mystring &source)
 }
 
 // Move constructor
-Mystring::Mystring( Mystring &&source) 
+Mystring::Mystring(Mystring &&source) 
     :str(source.str) {
         source.str = nullptr;
 //        std::cout << "Move constructor used" << std::endl;
 }
 
  // Destructor
-Mystring::~Mystring() {
+Mystring::~Mystring()
+{
     delete [] str;
 }
 
@@ -54,7 +55,8 @@ Mystring &Mystring::operator=(const Mystring &rhs)
 }
 
 // Move assignment
-Mystring &Mystring::operator=(Mystring &&rhs) {
+Mystring &Mystring::operator=(Mystring &&rhs) 
+{
  //   std::cout << "Using move assignment" << std::endl;
     if (this == &rhs) 
         return *this;
@@ -64,24 +66,27 @@ Mystring &Mystring::operator=(Mystring &&rhs) {
     return *this;
 }
 
-Mystring &Mystring::operator-(Mystring &rhs)
+Mystring &Mystring::operator-(Mystring rhs)
 {
-    char buff [strlen(rhs) + 1];
+    char buff [strlen(rhs.get_str()) + 1];
 
-    for (size_t i = 0; i < strlen(rhs); ++i)
-    {
-        buff[i] = rhs.str[i];
-    }
+    for (size_t i = 0; i < strlen(rhs.get_str()); ++i)
+        buff[i] = tolower(rhs.get_str()[i]);
+
+    Mystring temp = {buff};
+    delete [] buff;
+    return temp;
 }
 
 // Display method
-void Mystring::display() const {
+void Mystring::display() const 
+{
     std::cout << str << " : " << get_length() << std::endl;
 }
 
- // getters
- int Mystring::get_length() const { return strlen(str); }
- const char *Mystring::get_str() const { return str; }
+// getters
+int Mystring::get_length() const { return strlen(str); }
+const char *Mystring::get_str() const { return str; }
 
 // overloaded insertion operator
 std::ostream &operator<<(std::ostream &os, const Mystring &rhs) {

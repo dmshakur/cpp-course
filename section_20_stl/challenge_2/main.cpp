@@ -1,7 +1,6 @@
 // Section 20
 // Challenge 2
 //  Lists
-
 #include <iostream>
 #include <list>
 #include <string>

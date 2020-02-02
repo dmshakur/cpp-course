@@ -1,5 +1,4 @@
 #include "Savings_Account.h"
-#include "InsufficentFundsException.h"
 
 Savings_Account::Savings_Account(std::string name, double balance, double int_rate)
     : Account {name, balance}, int_rate{int_rate} {
@@ -15,8 +14,6 @@ bool Savings_Account::deposit(double amount) {
 }
 
 bool Savings_Account::withdraw(double amount) {
-    if (amount > balance)
-        throw InsufficientFundsException{};
     return Account::withdraw(amount);
 }
 

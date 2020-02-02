@@ -1,6 +1,7 @@
 #ifndef _TRUST_ACCOUNT_H_
 #define _TRUST_ACCOUNT_H_
-#include "Savings_Account.cpp"
+
+#include "Savings_Account.h"
 
 class Trust_Account : public Savings_Account {
 private:
