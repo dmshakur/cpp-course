@@ -2,7 +2,7 @@
 #include <cstring>
 #include "Mystring.h"
 
- // No-args constructor
+// No-args constructor
 Mystring::Mystring() 
     : str{nullptr} {
     str = new char[1];
@@ -27,7 +27,6 @@ Mystring::Mystring(const Mystring &source)
         str = new char[strlen(source.str)+ 1];
         strcpy(str, source.str);
  //       std::cout << "Copy constructor used" << std::endl;
-
 }
 
 // Move constructor
@@ -66,16 +65,127 @@ Mystring &Mystring::operator=(Mystring &&rhs)
     return *this;
 }
 
-Mystring &Mystring::operator-(Mystring rhs)
+Mystring Mystring::operator-(const Mystring &rhs)
 {
-    char buff [strlen(rhs.get_str()) + 1];
-
-    for (size_t i = 0; i < strlen(rhs.get_str()); ++i)
-        buff[i] = tolower(rhs.get_str()[i]);
-
-    Mystring temp = {buff};
+    char *buff = new char[std::strlen(rhs.get_str()) + 1];
+    std::strcpy(buff, rhs.get_str());
+    for (size_t i = 0; i < std::strlen(buff); ++i)
+        buff[i] = tolower(buff[i]);
+    Mystring temp {buff};
     delete [] buff;
     return temp;
+}
+
+Mystring Mystring::operator+(const Mystring &rhs)
+{
+    if (this->get_length() == 0)
+    {
+        char *buff = new char[rhs.get_length() + 1];
+        std::strcpy(buff, rhs.get_str());
+        Mystring temp = {buff};
+        delete [] buff;
+        return temp;
+    }
+    char *buff = new char[this->get_length() + rhs.get_length() + 1];
+    std::strcpy(buff, this->get_str());
+    std::strcat(buff, rhs.get_str());
+    Mystring temp {buff};
+    delete [] buff;
+    return temp;
+}
+
+Mystring &Mystring::operator+=(const Mystring &rhs)
+{
+    if (this->get_length() == 0)
+    {
+        char *buff = new char[rhs.get_length()];
+        std::strcpy(buff, rhs.get_str());
+        Mystring temp = {buff};
+        delete [] buff;
+        return temp;
+    }
+    char *buff = new char[this->get_length() + rhs.get_length() + 1];
+    std::strcpy(buff, this->get_str());
+    std::strcat(buff, rhs.get_str());
+    Mystring temp {buff};
+    delete [] buff;
+    return temp;
+}
+
+bool Mystring::operator==(const Mystring &rhs)
+{
+    if (this->get_length() != rhs.get_length())
+        return false;
+    else
+    {
+        for (size_t i = 0; i < rhs.get_length(); ++i)
+            if (this->get_str()[i] != rhs.get_str()[i])
+                return false;
+    }
+    return true;
+}
+
+bool Mystring::operator!=(const Mystring &rhs)
+{
+    if (this->get_length() != rhs.get_length())
+        return true;
+    else
+        for (size_t i = 0; i < rhs.get_length(); ++i)
+            if (this->get_str()[i] != rhs.get_str()[i])
+                return true;
+    return false;  
+}
+
+bool Mystring::operator<(const Mystring &rhs)
+{
+    for (size_t i = 0; i < rhs.get_length(); ++i)
+        if (tolower(this->get_str()[i]) < tolower(rhs.get_str()[i]))
+            return true;
+    return false;
+}
+
+bool Mystring::operator>(const Mystring &rhs)
+{
+    for (size_t i = 0; i < rhs.get_length(); ++i)
+        if (tolower(this->get_str()[i]) > tolower(rhs.get_str()[i]))
+            return true;
+    return false;
+}
+
+Mystring Mystring::operator*(size_t multiplier)
+{
+    if (multiplier <= 0)
+    {
+        char *buff = new char;
+        Mystring temp {buff};
+        delete [] buff;
+        return temp;
+    }
+    char *buff = new char[(this->get_length() * multiplier) + 1];
+    std::strcpy(buff, this->get_str());
+    for (size_t i = 1; i < multiplier; ++i)
+        std::strcat(buff, this->get_str());
+    Mystring temp {buff};
+    delete [] buff;
+    return temp;    
+}
+
+Mystring &Mystring::operator*=(size_t multiplier)
+{
+    if (multiplier <= 0)
+    {
+        char *buff = new char;
+        Mystring temp {buff};
+        delete [] buff;
+        return temp;
+    }
+    char *buff = new char[(this->get_length() * multiplier) + 1];
+    std::strcpy(buff, this->get_str());
+    for (size_t i = 1; i < multiplier; ++i)
+        std::strcat(buff, this->get_str());
+    Mystring temp {buff};
+    delete [] buff;
+    return temp; 
 }
 
 // Display method

@@ -1,40 +1,49 @@
 #include <iostream>
-#include "Mystring.h"
+#include "Mystring.cpp"
 
 using namespace std;
 
-int main() {
+int main()
+{
+  std::cout << std::boolalpha << std::endl;
+  // Mystring a {"frank"};
+  // Mystring b {"Frank"};
 
-  cout << boolalpha << endl;
-  Mystring a {"frank"};
-  Mystring b {"Frank"};
+  // cout << (a == b) << endl;
+  // cout << (a != b) << endl;
 
-//   cout << (a == b) << endl;
-//   cout << (a != b) << endl;
+  // b = "frank";
+  // std::cout << (a == b) << std::endl;
 
-//   b = "george";
-//   cout << (a == b) << endl;
-//   cout << (a != b) << endl;
-//   cout << (a < b) << endl;
-//   cout << (a > b) << endl;
+  // b = "george";
+  // cout << (a == b) << endl;
+  // cout << (a != b) << endl;
+
+  // b = "frank";
+
+  // cout << (a != b) << endl;
+  // b = "george";
+
+  // cout << a << " Less than " << b << (a < b) << endl;
+  // cout << a << " Greater than " << b << (a > b) << endl;
 
   Mystring s1 {"FRANK"};
-  s1 = -s1;
+  // s1 = -s1;
+  // std::cout << s1 << std::endl;
+
+  // s1 = s1 + "*** *** ***";
+  // cout << s1 << endl;
+
+  s1 += " ********";
   cout << s1 << endl;
 
-//   s1 = s1 + "********";
-//   cout << s1 << endl;
+  Mystring s2 {"12345"};
+  s1 = s2 * 3;
+  cout << s1 << endl;
 
-//   s1 += "********";
-//   cout << s1 << endl;
-
-//   Mystring s2 {"12345"};
-//   s1 = s2 * 3;
-//   cout << s1 << endl;
-
-//   Mystring s3 {"abcdef"};
-//   s3 *= 5;
-//   cout << s3 << endl;
+  Mystring s3 {"abcdef"};
+  s3 *= 5;
+  cout << s3 << endl;
 
 //   Mystring s = "Frank";
 //   ++s;
@@ -85,11 +94,11 @@ int main() {
       (s1 > s2)
   +  concatenation. Returns an object that concatenates the lhs and the rhs CHECK
       (s1 + s2)
-  += concatenate the rhs string to the lhs string and store the result in the lhs objects CHECK
+  += concatenate the rhs string to the lhs string and store the result in the lhs objects 
       (s1 += s2)
-  *  repeat results in a string that is copied (n) times CHECK
+  *  repeat results in a string that is copied (n) times 
       (s2 * 3)
-  *= repeat the string on the lhs (n) times and store the result in the lhs object CHECK
+  *= repeat the string on the lhs (n) times and store the result in the lhs object 
       (s1 = "abc"
        s1 *= 4)
 
@@ -99,10 +108,11 @@ int main() {
 
     Mystring &operator++() { // Pre-increment syntax
       // Do whatever you want increment to do - maybe make all the characters uppercase?
-      return *this;=
+      return *this;
     }
 
     // Note that post-increment returns a Mystring by value not by reference
+
     Mystring operator++(int) { // Post-increment
       Mystring temp {*this}; // Make a copy
       operator++(); // Call Pre-increment
